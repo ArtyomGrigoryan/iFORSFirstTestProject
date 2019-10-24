@@ -139,8 +139,8 @@
     _scrollView.scrollIndicatorInsets = contentInsets;
 
     CGPoint point = CGPointMake(0, _activeTextView.frame.origin.y - h * _activeTextView.frame.size.height);
+
     [_scrollView setContentOffset:point animated:YES];
-    
     _scrollView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;
 }
 
